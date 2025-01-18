@@ -1,0 +1,21 @@
+Nodejs framework no, library no.
+Node.js is a JavaScript runtime that allows you to run JavaScript on the server It is:
+Built on Chrome's V8 JavaScript engine.
+Has a vast library of modules via npm (Node Package Manager).
+
+
+Dependencies -> that will require in production also
+Dev-Dependencies-> that will not require in Production , require only during Development
+
+
+Expressjs(ek npm pkg hai)->Framework
+what is Framework? gives you flow
+Definition: A framework is a pre-defined structure or skeleton that provides a foundation for building applications. 
+It dictates the architecture of your application and how your code should interact with it.
+
+Frontend: Angular, Vue.js
+Backend: Django, Ruby on Rails, Express.js
+
+Express js manages everything from recieving the req and giving the response.
+
+
