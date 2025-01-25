@@ -18,4 +18,33 @@ Backend: Django, Ruby on Rails, Express.js
 
 Express js manages everything from recieving the req and giving the response.
 
+Middleware req->server accept the req then ->Middleware->route
 
+Middleware can check if a user is authenticated (logged in) and has the required permissions to access certain resources.
+Middleware can serve static assets such as images, CSS files, and JavaScript files.
+Middleware can control the number of requests a user can make within a specific time frame to prevent abuse.
+Middleware can handle CORS settings to allow or restrict requests from specific origins.
+
+
+Session and Cookie
+Session data saved on server side
+Cookie data saved on client side
+
+Sessions are used to store data on the server-side, and a unique session ID is usually stored in a cookie or URL to identify the session for a particular user.
+Life Cycle: Sessions last until the browser is closed or the session expires (can be configured on the server).
+Usage: Sessions are typically used for:
+User authentication (storing logged-in users’ information).
+Storing temporary data (e.g., shopping cart contents).
+Maintaining state between different pages or visits.
+
+Cookies are small pieces of data that are stored in the browser of the user. They are typically used to store user-specific information that needs to persist between page reloads and across different sessions.
+
+Storage: Stored in the browser as name-value pairs.
+Life Cycle: Cookies can be persistent or session-based:
+Session Cookies: Only available during the current browser session. They are deleted when the browser is closed.
+Persistent Cookies: Stored on the user’s device with an expiration date, and they persist even after the browser is closed.
+Usage: Cookies are commonly used for:
+Remembering login credentials.
+Tracking user preferences (e.g., language settings, theme).
+Analytics tracking (e.g., Google Analytics).
+Storing small data to maintain state or pass information between pages.
